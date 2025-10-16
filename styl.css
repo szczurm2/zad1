@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div#logo {
+    display: flex;
+    justify-content: center;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    li a {
+    background-color:darkblue;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+}
+
+.main {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    li a img {
+        height: auto;
+        width: 200px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    border-radius: 5px;
+
+    p {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+}
