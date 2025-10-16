@@ -62,6 +62,3 @@ th {
   background: #ccc;
 }
 
-tr:nth-child(even) {
-  background: #eee;
-}
